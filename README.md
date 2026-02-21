@@ -117,37 +117,6 @@ If you use VS Code, install the **Live Server** extension, then right-click `ind
 
 ---
 
-## 🛠️ Customization Guide
-
-### 1. Replace the profile photo
-In `index.html`, find the `.about-image-placeholder` div and replace it with:
-```html
-<img src="assets/images/your-photo.jpg" alt="Davood Suliaman" />
-```
-
-### 2. Update LinkedIn URL
-Search for `[Add LinkedIn URL]` in `index.html` and replace with your actual LinkedIn profile link.
-
-### 3. Add a new project card
-Copy one of the `<article class="project-card">` blocks in the Projects section and update the title, description, tech tags, and links.
-
-### 4. Change the color accent
-In `style.css`, update the CSS variables at the top:
-```css
-:root {
-  --accent: #5b8af0;        /* Primary accent color */
-  --accent-2: #8b5cf6;      /* Secondary accent (gradient end) */
-  --accent-glow: rgba(91, 138, 240, 0.3);
-}
-```
-
-### 5. Add real form submission
-In `script.js`, find the `setTimeout` inside the form submit handler and replace it with your preferred service:
-- [EmailJS](https://www.emailjs.com/) — free, no backend needed
-- [Formspree](https://formspree.io/) — just change the `<form>` action attribute
-- A custom REST API endpoint using `fetch()`
-
----
 
 ## 📦 External Resources Used
 
